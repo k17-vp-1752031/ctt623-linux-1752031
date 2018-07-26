@@ -17,4 +17,4 @@ makeAMakefile ()
     echo -e "clean:\\n\trm -f*.o exo\ndepend:\n\tmakedepend *.c"
 }
 
-makeAMakefile file1.c file2.c
+makeAMakefile test1.c test2.c test3.c
