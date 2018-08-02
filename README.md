@@ -6,6 +6,24 @@ Môn học của lớp 17VP năm học 2018
 
 # BTTL
 ## Tuần 4:
+* Hoàn thành:
+* Chưa hoàn thành:
+* Câu hỏi:
 
 # BTTH:
 ## Tuần 3:
+* Hoàn thành: 100%
+* Chưa hoàn thành:
+* Câu hỏi:
+## Tuần 4:
+* Hoàn thành:
+* Chưa hoàn thành:
+* Câu hỏi:
+## Tuần 5-6:
+* Hoàn thành:
+* Chưa hoàn thành:
+* Câu hỏi:
+## Tuần 7
+* Hoàn thành: 50%
+* Chưa hoàn thành: 50%
+* Câu hỏi:
