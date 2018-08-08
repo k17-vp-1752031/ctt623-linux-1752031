@@ -1,0 +1,27 @@
+#!/bin/bash
+showhelp()
+{
+    echo "Usage: ./1752031_BTTH04b.sh [h|--help] [-a|--all] [-f|--find filename] [-c|--count filename] [dir]"
+}
+
+showAllfiles() #dir
+{
+    local dir="$1"
+    if !( test -d "$dir" )
+    then
+	echo "Duong dan khong ton tai."
+	return 1
+    else
+	file=$dir/*
+	for file in $file/*
+	do	    
+	    echo ${file##*/}
+	    
+        done
+    fi	
+}
+
+
+showAllfiles /home/mint
+
+

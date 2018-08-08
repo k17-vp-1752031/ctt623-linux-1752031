@@ -1,0 +1,109 @@
+#!/bin/bash
+showhelp()
+{
+    echo "Usage: ./$0_BTTH04b.sh [h|--help] [-a|--all] [-f|--find filename] [-c|--count filename] [dir]"
+}
+
+showAllfiles() #dir
+{
+    local dir="$1"
+    if !( test -d "$dir" )
+    then
+	echo "Duong dan khong ton tai."
+	return 1
+    else
+	file=$dir/*
+	for file in $file/*
+	do	    
+	    echo ${file##*/}
+	    
+        done
+    fi	
+}
+
+
+#showAllfiles /home/mint
+
+findFile()
+{
+    local dir="$1"
+    local filename="$2"
+    if !( test -d "$dir" )
+    then
+	echo "Duong dan khong ton tai."
+	return 1
+    else
+	for d in $dir/*;
+	do
+	    {
+	    fname=${$d##*/}
+	    if [ "$fname"="$filename" ]; then
+		echo "$d"
+		
+	    fi
+	    if !( test -d "$d" )
+	    then
+		"Duong dan ko ton tai."
+		return 1
+	    else 
+		findFile
+	    fi
+	}
+	done
+    fi
+    
+	
+}
+
+countLines ()
+{
+    local dir="$1"
+    if ! [ -f $dir ] ; then
+	echo "File doesn't exist."
+	exit 1
+    elif ! [ -r $dir ] ; then
+	echo "File khong co quyen doc."
+    else
+	echo "${dir##*/}"
+	echo $( wc -l < $dir)
+    fi
+}
+
+while [ $# -ge 1 ] ; do
+
+    case $1 in
+	-h|--help) showhelp
+	    shift
+	    ;;
+	-a|--all) flag_all=true
+	    shift
+	    ;;
+	-f|--find) flag_find=true
+	    filename="$1"
+	    shift
+	    ;;
+	-c|--count) flag_countline=true
+	    shift
+	    ;;
+	*) echo "Nothing"
+	    exit 1
+    esac
+done
+showinfos() 
+{
+    if $flag_countLine; then 
+	echo "$(countLines /home/mint/case1.txt)"
+    fi
+    if $flag_find; then
+	echo "$(findFile /home/mint/case2.txt)"
+    fi
+    if $flag_all; then
+	echo "$(showAllfiles /home/mint)"
+    fi
+}
+showinfos 
+
+
+
+
+

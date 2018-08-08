@@ -1,0 +1,18 @@
+#! /bin/bash
+
+showhelp()
+{
+    echo "Usage: ./$0 [-a|--all] [-d|--display] [[s|--sum] [-p|--product] input_file output_file"
+}
+
+lengthlist()
+{
+    while [ $# -gt 0 ]
+    docase 
+	i++
+	shift
+	echo $i
+   done
+}
+
+lengthlist 1 2 3 4 5

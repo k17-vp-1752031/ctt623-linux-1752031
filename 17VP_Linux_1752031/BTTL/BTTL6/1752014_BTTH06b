@@ -1,0 +1,21 @@
+reversedword()
+{
+    local in=$1
+    local out=$2
+    local res
+    while read line
+    do
+	n=${#line}
+	res=''
+	for (( i=$n-1; i >= 0; i-- ))
+	do
+	    res="$res${line:$i:1}"
+	done
+	echo "$res" >> $out
+	echo -n
+	done < $in
+}
+
+input="$1"
+output="$2"
+reversedword input.txt output.txt
