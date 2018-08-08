@@ -4,20 +4,14 @@ Môn học của lớp 17VP năm học 2018
 * MSSV: 1752031
 * Họ và tên: Triệu Quang Minh
 
-# BTTL
-## Tuần 4:
-* Hoàn thành:
-* Chưa hoàn thành:
-* Câu hỏi:
-
 # BTTH:
 ## Tuần 3:
 * Hoàn thành: 100%
 * Chưa hoàn thành:
 * Câu hỏi:
 ## Tuần 4:
-* Hoàn thành:
-* Chưa hoàn thành:
+* Hoàn thành: 70%
+* Chưa hoàn thành: 30%
 * Câu hỏi:
 ## Tuần 5-6:
 * Hoàn thành:
@@ -27,3 +21,6 @@ Môn học của lớp 17VP năm học 2018
 * Hoàn thành: 50%
 * Chưa hoàn thành: 50%
 * Câu hỏi:
+## Tuần 8:
+* Hoàn thành:
+* Chưa hoàn thành: 
