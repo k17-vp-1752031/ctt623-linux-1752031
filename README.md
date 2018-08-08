@@ -14,13 +14,14 @@ Môn học của lớp 17VP năm học 2018
 * Chưa hoàn thành: 30%
 * Câu hỏi:
 ## Tuần 5-6:
-* Hoàn thành:
-* Chưa hoàn thành:
+* Hoàn thành: 70%
+* Chưa hoàn thành: 30%
 * Câu hỏi:
 ## Tuần 7
 * Hoàn thành: 50%
 * Chưa hoàn thành: 50%
 * Câu hỏi:
 ## Tuần 8:
-* Hoàn thành:
-* Chưa hoàn thành: 
+* Hoàn thành: 80%
+* Chưa hoàn thành: 20%
+* Câu hỏi:
